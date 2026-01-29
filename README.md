@@ -38,11 +38,11 @@ This work is conducted as part of an Undergraduate Research Opportunity Program 
 ---
 
 ## Project Structure
-- **[papers](papers/)** – Summaries and notes on relevant research literature
-- **[tools](tools/)/** – Documentation for tools used (JUnit, JaCoCo, PIT, etc.)
-- **[benchmarks](benchmarks/)** – Selected Java benchmark projects and classification criteria
+- **[Papers](papers/)** – Summaries and notes on relevant research literature
+- **[Tools](tools/)** – Documentation for tools used (JUnit, JaCoCo, PIT, etc.)
+- **[Benchmarks](benchmarks/)** – Selected Java benchmark projects and classification criteria
 - **[Schedule](schedule/)** – Project timeline and milestones
-- **[notes](notes/)** – Research notes, ideas, and observations
+- **[Notes](notes/)** – Research notes, ideas, and observations
 
 ---
 
