@@ -10,16 +10,18 @@ This timeline outlines the major phases and milestones of the research project, 
 - Identified key evaluation metrics: code coverage and mutation testing  
 - Selected core research papers  
 - Began refining research questions
+
 **Results**
 - Selected papers
 
 ---
 
 ## January 23 – January 28  
-**Project Organization & Planning** *(Completed)* https://mekdelawitg.github.io/UROP-Research-Project/
+**Project Organization & Planning** *(Completed)* 
 - Create GitHub project website and repository structure  
 - Document research papers, tools, benchmarks, and schedule  
 - Refine research questions and experimental scope
+
 **Results**
 - Github project website
 - Refined research questions
@@ -33,6 +35,7 @@ This timeline outlines the major phases and milestones of the research project, 
 - Categorize benchmarks as easy, medium, or hard  
 - Document complexity characteristics and selection criteria  
 - Finalize preliminary benchmark list
+
 **Results**
 - Selected benchmarks (link to be added)
 
