@@ -13,16 +13,12 @@ This work is conducted as part of an Undergraduate Research Opportunity Program 
 
 ## Research Objectives
 - Evaluate the effectiveness of LLM-generated software tests
-- Measure fault detection capability using mutation testing
-- Measure code coverage using coverage metrics
-- Study how program complexity impacts test effectiveness
-
 ---
 
 ## Research Questions
-- How effective are LLM-generated tests across benchmarks of varying complexity?
-- Do LLM-generated tests achieve high code coverage across different benchmark categories?
-- Do LLM-generated tests effectively detect injected faults as measured by mutation testing?
+- How effective are LLM-generated tests compared to human-written test suites across benchmarks of varying complexity?
+- Do LLM-generated tests achieve comparable or higher code coverage than human-written tests across different benchmark categories?
+- Do LLM-generated tests detect injected faults (measured via mutation testing) as effectively as human-written tests?
 
 ---
 
