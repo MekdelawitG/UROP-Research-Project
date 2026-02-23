@@ -5,33 +5,41 @@ This timeline outlines the major phases and milestones of the research project, 
 ---
 
 ## January 12 – January 21  
-**Project Kickoff & Initial Literature Review** *(Completed)*  
+**Project Kickoff & Initial Literature Review** *(Completed)* 
 - Defined research focus on evaluating the effectiveness of LLM-generated tests  
 - Identified key evaluation metrics: code coverage and mutation testing  
 - Selected core research papers  
-- Began refining research questions  
+- Began refining research questions
+**Results**
+- Selected papers
 
 ---
 
 ## January 23 – January 28  
-**Project Organization & Planning** *(Current Phase)*  
+**Project Organization & Planning** *(Completed)* https://mekdelawitg.github.io/UROP-Research-Project/
 - Create GitHub project website and repository structure  
 - Document research papers, tools, benchmarks, and schedule  
-- Refine research questions and experimental scope  
+- Refine research questions and experimental scope
+**Results**
+- Github project website
+- Refined research questions
+- Literature review
 
 ---
 
 ## January 29 – February 11 
-**Benchmark Identification & Classification**  
+**Benchmark Identification & Classification** *(Completed)*
 - Identify candidate Java benchmark projects  
 - Categorize benchmarks as easy, medium, or hard  
 - Document complexity characteristics and selection criteria  
-- Finalize preliminary benchmark list  
+- Finalize preliminary benchmark list
+**Results**
+- Selected benchmarks (link to be added)
 
 ---
 
 ## February 12 – February 18 
-**Toolchain Setup & Experiment Design**  
+**Toolchain Setup & Experiment Design** *(Completed)*
 - Set up test frameworks and coverage measuring tools 
 - Define standardized test generation prompts  
 - Establish experimental protocol and data collection format  
@@ -39,7 +47,7 @@ This timeline outlines the major phases and milestones of the research project, 
 ---
 
 ## February 19 – March 4 
-**Pilot Study & Easy Benchmarks**  
+**Pilot Study & Easy Benchmarks** *(Current Phase)* 
 - Generate LLM-based tests for easy benchmarks  
 - Validate test compilation and execution  
 - Collect initial coverage and mutation data  
