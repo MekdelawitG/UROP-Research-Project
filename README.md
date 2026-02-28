@@ -39,6 +39,7 @@ This work is conducted as part of an Undergraduate Research Opportunity Program 
 - **[Benchmarks](benchmarks/)** – Selected Java benchmark projects and classification criteria
 - **[Schedule](schedule/)** – Project timeline and milestones
 - **[Notes](notes/)** – Research notes, ideas, and observations
+- **[Results](results/)** - Detailed experimental results are available by benchmark category:
 
 ---
 
@@ -55,9 +56,7 @@ See: [Schedule](schedule/)
 ---
 
 ## Current Status
-- Core literature review completed
-- Research objectives and evaluation strategy defined
-- Project website and repository structure established
+- Second easy benchmark completed
 
 ---
 
