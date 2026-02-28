@@ -15,16 +15,32 @@ Using benchmarks of different complexity allows the project to assess whether LL
 
 ---
 
+## Quantitative Benchmark Classification
+
+Benchmark difficulty is defined using objective, measurable metrics to ensure reproducibility.
+
+Each benchmark unit (target class under test) is evaluated using the following metrics:
+
+1. Lines of Code (LOC) – excluding comments and documentations
+2. Number of Classes involved in the benchmark unit
+3. Number of Methods in the target class
+4. Number of PIT Mutants Generated
+5. Number of Dependencies: Number of distinct project-level classes directly referenced by the target class.
+
+For this research, only these metrics are considered.
+---
+
 ## Benchmark Categories
 
 Benchmark projects are categorized into three levels of complexity:
 
 ### Easy Benchmarks
 Characteristics:
-- Small codebase (low lines of code)
-- Minimal or no external dependencies
-- Simple control flow and program structure
-- Limited number of classes and methods
+- LOC: < 400
+- ≤ 3 classes
+- < 20 methods
+- < 300 PIT mutants
+- 0-2 dependencies
 
 Purpose:
 - Validate the test generation and evaluation pipeline
@@ -34,10 +50,11 @@ Purpose:
 
 ### Medium Benchmarks
 Characteristics:
-- Moderate codebase size
-- Some external dependencies
-- More complex control flow and interactions between classes
-- Use of common object-oriented design patterns
+- LOC between 400–800
+- 3-10 classes
+- 20-50 methods
+- 300-800 PIT mutants
+- 3-5 dependencies
 
 Purpose:
 - Evaluate how LLM-generated test effectiveness changes with increased complexity
@@ -47,14 +64,14 @@ Purpose:
 
 ### Hard Benchmarks
 Characteristics:
-- Large codebase
-- Multiple external dependencies
-- Complex control flow and object interactions
-- Realistic project structure similar to production systems
+- LOC > 800
+- 10 classes
+- 50 methods
+- 800 PIT mutants
+- > 6 dependencies
 
 Purpose:
 - Assess the limits of LLM-generated test effectiveness
-- Study scalability issues in both test generation and evaluation
 - Identify cases where coverage may significantly diverge from fault detection capability
 
 ---
@@ -64,8 +81,7 @@ Purpose:
 Benchmarks will be selected based on:
 - Lines of code (LOC)
 - Number of classes and methods
-- Dependency count
-- Project structure and modularity
+- Dependency count (Internal)
 - Suitability for mutation testing with PIT
 
 Only Java projects that can be reliably built and tested using standard tools will be considered.
@@ -76,6 +92,12 @@ Only Java projects that can be reliably built and tested using standard tools wi
 
 Benchmark projects have not yet been finalized.  
 Final selection and classification will be completed before the experimental phase begins.
+
+| Benchmark          | Project             | Source                                                                           | LOC | # Methods | Internal Dependencies | PIT Mutants | Category | Status                   |
+| ------------------ | ------------------- | -------------------------------------------------------------------------------- | --- | --------- | --------------------- | ----------- | -------- | ------------------------ |
+| BooleanUtils       | Apache Commons Lang | [https://github.com/apache/commons-lang](https://github.com/apache/commons-lang) | 360 | TBD       | 3                     | 214         | Easy     | LLM evaluation completed |
+| *Second Benchmark* | *TBD*               | *TBD*                                                                            | TBD | TBD       | TBD                   | TBD         | Easy     | Selection in progress    |
+
 
 ---
 
