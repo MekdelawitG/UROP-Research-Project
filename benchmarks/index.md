@@ -38,7 +38,7 @@ Benchmark projects are categorized into three levels of complexity:
 Characteristics:
 - LOC: < 400
 - ≤ 3 classes
-- < 20 methods
+- < 55 methods
 - < 300 PIT mutants
 - 0-2 dependencies
 
@@ -52,7 +52,7 @@ Purpose:
 Characteristics:
 - LOC between 400–800
 - 3-10 classes
-- 20-50 methods
+- 55-80 methods
 - 300-800 PIT mutants
 - 3-5 dependencies
 
@@ -66,7 +66,7 @@ Purpose:
 Characteristics:
 - LOC > 800
 - 10 classes
-- 50 methods
+- 80 methods
 - 800 PIT mutants
 - > 6 dependencies
 
@@ -95,8 +95,8 @@ Final selection and classification will be completed before the experimental pha
 
 | Benchmark          | Project             | Source                                                                           | LOC | # Methods | Internal Dependencies | PIT Mutants | Category | Status                   |
 | ------------------ | ------------------- | -------------------------------------------------------------------------------- | --- | --------- | --------------------- | ----------- | -------- | ------------------------ |
-| BooleanUtils       | Apache Commons Lang | [https://github.com/apache/commons-lang](https://github.com/apache/commons-lang) | 360 | TBD       | 3                     | 214         | Easy     | LLM evaluation completed |
-| *Second Benchmark* | *TBD*               | *TBD*                                                                            | TBD | TBD       | TBD                   | TBD         | Easy     | Selection in progress    |
+| BooleanUtils       | Apache Commons Lang | [https://github.com/apache/commons-lang](https://github.com/apache/commons-lang) | 360 | 47       | 3                     | 214         | Easy     | LLM evaluation completed |
+| ObjectUtils | Apache Commons Lang              | [https://github.com/apache/commons-lang](https://github.com/apache/commons-lang) | 324 | 54       | 2-3(will be checked again)                   | 137         | Easy     | LLM evaluation completed |
 
 
 ---
