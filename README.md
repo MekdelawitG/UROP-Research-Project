@@ -39,7 +39,7 @@ This work is conducted as part of an Undergraduate Research Opportunity Program 
 - **[Benchmarks](benchmarks/)** – Selected Java benchmark projects and classification criteria
 - **[Schedule](schedule/)** – Project timeline and milestones
 - **[Notes](notes/)** – Research notes, ideas, and observations
-- **[Results](results/)** - Detailed experimental results are available by benchmark category:
+- **[Results](Results/)** - Detailed experimental results are available by benchmark category:
 
 ---
 
