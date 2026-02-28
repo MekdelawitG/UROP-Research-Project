@@ -62,7 +62,7 @@ Here is the full source file: (here the full BooleanUtils.java was attached) /*
 
 ### LLM-Generated Test Code
 
-- [BooleanUtilsLLMTest.java](Results/BooleanUtilsLLMTest.java)
+- [BooleanUtilsLLMTest.java](BooleanUtilsLLMTest.java)
 
 ---
 
@@ -134,7 +134,7 @@ Here is the full source file: (here the full ObjectUtils.java was attached) /*
 
 ### LLM-Generated Test Code
 
-- [ObjectUtilsLLMTest.java](Results/ObjectUtilsLLMTest.java)
+- [ObjectUtilsLLMTest.java](ObjectUtilsLLMTest.java)
 
 ---
 
