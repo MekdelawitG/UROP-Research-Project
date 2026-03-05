@@ -20,15 +20,17 @@ This section presents experimental results for benchmarks classified as **Easy**
 
 <details>
 <summary>Click to view prompt</summary>
-
+---
 You are generating JUnit 5 unit tests for the Apache Commons Lang class:
 org.apache.commons.lang3.BooleanUtils
-
-Research Context:
+   
+### Research Context:
+---
 This test suite will be evaluated using mutation testing (PIT) and line coverage. 
 The goal is to generate a strong, independent unit test suite based only on the source code below.
 
-Constraints:
+### Constraints:
+---
 1. Use JUnit 5 only (org.junit.jupiter.api.*).
 2. Do NOT use Mockito, EasyMock, or any external libraries.
 3. Tests must be deterministic (no randomness, no time-based logic, no file/network I/O).
@@ -41,14 +43,16 @@ Constraints:
 7. Keep the suite focused and non-redundant (approximately 25–60 well-designed tests).
 8. The test class must compile inside a Maven project where BooleanUtils already exists.
 
-Helper Class Note:
+### Helper Class Note:
 BooleanUtils references NumberUtils.INTEGER_ONE and NumberUtils.INTEGER_ZERO.
 
-You may assume:
+---
+### You may assume:
 NumberUtils.INTEGER_ONE == Integer.valueOf(1)
 NumberUtils.INTEGER_ZERO == Integer.valueOf(0)
 
-Output Format:
+---
+### Output Format:
 Step 1: Output a checklist of behaviors and edge cases to test, grouped by method.
 Step 2: Then output ONLY the Java code for a single JUnit 5 test class:
 Package: org.apache.commons.lang3
