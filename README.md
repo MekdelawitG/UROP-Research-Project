@@ -23,13 +23,30 @@ This work is conducted as part of an Undergraduate Research Opportunity Program 
 ---
 
 ## Methodology
-- Select Java benchmark projects of varying complexity
-- Generate test cases using large language models
-- Apply both unit tests and end-to-end tests 
-- Evaluate generated tests using:
-  - **JaCoCo** for code coverage measurement
-  - **PIT** for mutation testing and fault detection
-- Analyze and compare results across benchmarks and test types
+
+This study evaluates the effectiveness of LLM-generated tests using a structured experimental workflow.
+
+### Benchmark Selection
+- Selected standardized Java benchmarks from Defects4J
+- Chosen classes vary in complexity (easy, medium, hard)
+- Benchmarks include real-world faults such as logic errors and boundary condition issues
+
+### Test Generation
+- Used large language models to generate unit test cases
+- Compared generated tests against existing human-written benchmark tests (baseline)
+
+### Evaluation Process
+1. Run human-written tests (baseline)
+2. Run LLM-generated tests
+3. Measure and compare results using:
+
+- **JaCoCo** → line coverage (code execution)
+- **PIT Mutation Testing** → fault detection capability
+
+### Analysis
+- Compare coverage and mutation scores across benchmarks
+- Evaluate how performance changes with increasing program complexity
+- Identify strengths and limitations of LLM-generated tests
 
 ---
 
@@ -56,15 +73,30 @@ See: [Schedule](schedule/)
 ---
 
 ## Current Status
-- Second easy benchmark completed
+- Research is completed
 
 ---
 
 ## References
 - *TestEval: Benchmarking Large Language Models for Test Case Generation*
 - *A Review of Large Language Models for Automated Test Case Generation*
-
-Additional references will be added as the project progresses.
+- Just, R., Jalali, D., & Ernst, M. D. (2014).  
+Defects4J: A Database of Existing Faults to Enable Controlled Testing Studies for Java Programs.  
+Proceedings of the International Symposium on Software Testing and Analysis (ISSTA).
+- Siddiqui, S., et al. (2023).  
+TestEval: Benchmarking Large Language Models for Test Case Generation.  
+IEEE/ACM International Conference on Software Testing.
+- Celik, B., & Mahmoud, A. (2025).  
+A Review of Large Language Models for Automated Test Case Generation.
+- JaCoCo Team.  
+JaCoCo Java Code Coverage Library.  
+https://www.jacoco.org
+- Coles, H.  
+PIT Mutation Testing.  
+https://pitest.org
+- Defects4J Project.  
+Defects4J Benchmark Dataset.  
+https://github.com/rjust/defects4j
 
 ---
 
