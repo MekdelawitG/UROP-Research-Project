@@ -1,4 +1,4 @@
-# Undergraduate-Research-Project
+# UROP-Research-Project
 
 # Evaluating the Effectiveness of LLM-Generated Software Tests
 
