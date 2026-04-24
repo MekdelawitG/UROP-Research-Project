@@ -67,29 +67,6 @@ The full source code of the target class was appended below this prompt during t
 
 All benchmarks used the same prompt structure, with only the target class and source code changed.
 
-### Requirements:
-- Use JUnit 5 only (org.junit.jupiter.api.*)
-- Do NOT use external libraries (Mockito, EasyMock, etc.)
-- Tests must be deterministic (no randomness, time-based logic, or I/O)
-- Include meaningful assertions
-
-### Coverage Goals:
-- Normal behavior
-- Edge cases (null inputs, empty inputs, boundary values)
-- Exception handling
-
-### Constraints:
-- Do NOT reference existing human-written tests
-- Keep tests non-redundant and well-structured
-
-### Output:
-1. List behaviors and edge cases to test
-2. Output a single JUnit test class
-
-</details>
-
-All benchmarks used the same prompt structure, with only the target class name modified.
-
 ---
 
 ## How Results Were Collected
