@@ -52,7 +52,7 @@ The following test suites were generated using a consistent prompt across all be
 - [CharUtilsLLMTest.java](CharUtilsLLMTest.java)
 - [DurationLLMTest.java](DurationLLMTest.java)
 - [FractionLLMTest.java](FractionLLMTest.java)
-- [BooleanUtilsLLMTest.java](BooleanUtilsLLMTest.java)
+- [BooleanUtilsLLMTest.java](Boolean1UtilsLLMTest.java)
 - [PeriodLLMTest.java](PeriodLLMTest.java)
 - [ArrayRealVectorLLMTest.java](ArrayRealVectorLLMTest.java)
 
