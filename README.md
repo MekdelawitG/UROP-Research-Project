@@ -55,7 +55,6 @@ This study evaluates the effectiveness of LLM-generated tests using a structured
 - **[Tools](tools/)** – Documentation for tools used (JUnit, JaCoCo, PIT, etc.)
 - **[Benchmarks](benchmarks/)** – Selected Java benchmark projects and classification criteria
 - **[Schedule](schedule/)** – Project timeline and milestones
-- **[Notes](notes/)** – Research notes, ideas, and observations
 - **[Results](./Results/)** - Detailed experimental results are available by benchmark category:
 
 ---
