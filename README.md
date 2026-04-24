@@ -78,8 +78,6 @@ See: [Schedule](schedule/)
 ---
 
 ## References
-- *TestEval: Benchmarking Large Language Models for Test Case Generation*
-- *A Review of Large Language Models for Automated Test Case Generation*
 - Just, R., Jalali, D., & Ernst, M. D. (2014).  
 Defects4J: A Database of Existing Faults to Enable Controlled Testing Studies for Java Programs.  
 Proceedings of the International Symposium on Software Testing and Analysis (ISSTA).
