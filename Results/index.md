@@ -60,12 +60,12 @@ The following test suites were generated using a consistent prompt across all be
 
 ## Prompt Used for Test Generation
 
-A single standardized prompt was used across all benchmarks to ensure consistency and fairness in evaluation.
+A consistent prompt was used across all benchmarks.
 
-<details>
-<summary>Click to view prompt</summary>
+generate a comprehensive JUnit 4 test class for the following Java code, specifically optimized to achieve 100% line coverage and a maximum mutation survival score by testing all boundary conditions, mathematical edge cases, and error paths:
+The full source code of the target class was appended below this prompt during test generation.
 
-You are generating JUnit 5 unit tests for a Java class.
+All benchmarks used the same prompt structure, with only the target class and source code changed.
 
 ### Requirements:
 - Use JUnit 5 only (org.junit.jupiter.api.*)
